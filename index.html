@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38f8edb008.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+
+        <div id="flex">
+            <div id="user-location">Turn on your loccation</div>
+            <span><i onclick="clicktogstp()" class="fa-solid fa-location-crosshairs"></i></span>
+        </div>
+        <ul>
+            <li>
+                <input type="text" placeholder="Search by city...." id="city">
+            </li>
+            <li><button onclick="submitcity()">Search</button></li>
+        </ul>
+    </nav>
+
+    <div>
+        <div id="show-here"></div>
+        <div class="days">Daily Reports</div>
+        <div class="five-day-forcast-report"></div>
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe id="gmap_canvas" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
