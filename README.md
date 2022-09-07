@@ -1,10 +1,13 @@
 ### Weather app
 
 ## App Preview
-    <img src="./Screenshot (114).png">
+
+<img src="./img/img1.png">
 
 ## Search feature
-    <img src="./Screenshot (115).png">
+
+<img src="./img/img2.png">
 
 ## Map According to location 
-    <img src="./Screenshot (116).png">
+
+<img src="./img/img3.png">
